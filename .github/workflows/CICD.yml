@@ -30,7 +30,7 @@ jobs:
       url: 'http://dev.myapp.com'
     steps:
       - name: Deploy
-        run: echo Your code is being deployed to dev.myapp.com!
+        run: echo Your code is being deployed to $url
 
 # Our deployment to Staging environment job
   DeployStaging:
